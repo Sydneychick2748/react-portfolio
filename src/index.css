@@ -9,7 +9,7 @@
   
 
 }
- ;root{
+ :root{
   --primary-hue:270;
   --black-lightness: 15%;
   --dark-lightness: 44%;
@@ -48,7 +48,7 @@
 
  /* general container class */
   .container{
-    width:var(--container-width-lg);
+    width:76%;
     
     margin-inline:  auto;
    
@@ -57,13 +57,14 @@
     }
 
     /* general section  styles*/ 
-    .section{
+    section{
       padding: 10rem 0;
-      background: var(--color-light);
-      transition: var(--transition);
+      background: grey;
+      transition: all 500ms ease;
     }
 
-    section:nth-child(even){
-      background: var(--color-white);
+    section:nth-child(even) {
+      background: white;
     }
-  
+
+   
