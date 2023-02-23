@@ -48,7 +48,7 @@
 
  /* general container class */
   .container{
-    width:76%;
+    width:var(--container-width-lg);
     
     margin-inline:  auto;
    
@@ -59,12 +59,155 @@
     /* general section  styles*/ 
     section{
       padding: 10rem 0;
-      background: grey;
-      transition: all 500ms ease;
+      background: var(--color-light);
+      transition: var(--transition);
     }
 
-    section:nth-child(even) {
+    section:nth-child(even){
       background: white;
     }
+    section > h2{
+      text-align: center;
 
+
+    }
+    section > p {
+      text-align: center;
+      margin: 0.5rem auto 4rem;
+     width:40%;
+     
+    }
+
+    /* general section tag */
+    a{
+      color: var(--color-white); 
+      transition: var(--transition);
+    }
+
+    /* general heading styles 
+    */
+
+    h1,h2,h3,h4,h5,h6{
+      line-height: 1.1;
+      color: var(--color-dark);
+      
+    }
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 2rem;
+    }
+    h3{
+      font-size: 1.6rem;
+    }
+    h4{
+      font-size: 1.1rem;
+    }
+    h5{
+      font-size: 0.95rem;
+    }
+    h6{
+      font-size: 0.8rem;
+    }
+ /* general styles for images */
+
+  img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    
+  }
+
+  /* general button styles */
+  .btn{
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--color-light);
+    color: var(--color-black);
+    padding:0.6rem 2.5rem ;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-2);
+    cursor: pointer;
+    /* transform: translateY(-0.5rem); */
+  }
+
+  .btn:hover{
+    background-color:transparent ;
+    transform: var(-0.5rem);
+    border-color: var(--color-light);
+  }
+
+  .btn.white{
+    background: var(--color-white);
+    
+  }
+  .btn.white:hover{
+    background:transparent ;
    
+    border-color: var(--color-white);
+  }
+  
+  .btn.primary{
+    background: var(--color-primary);
+    color: white;
+  }
+  .btn.primary:hover{
+    background:transparent ;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+
+  .btn.sm{
+    padding: 0.5rem 1.2rem;
+    
+  }
+
+  /* media queries  for tablet*/
+  @media screen and (max-width: 1024px){
+    body{
+      font-size: 1rem;
+    }
+    .container{
+      width: var(--container-width-md);
+    }
+    section{
+      padding: 8rem 0;
+    }
+    section > p{
+      width: 75%;
+      margin-bottom: 3rem;
+    }
+    h1{
+      font-size: 2rem;
+    }
+  }
+
+  /* media query for phone  */
+  @media screen and (max-width: 600px){
+   
+    section > p{
+     width:var(--container-width-md)
+    }
+    h1{
+      font-size: 2.4rem;
+    }
+    h2{
+      font-size: 1.8rem;
+    }
+    h3{
+      font-size: 1.4rem;
+    }
+    h4{
+      font-size: 1rem;
+    }
+    h5{
+      font-size: 0.9rem;
+    }
+    h6{
+      font-size: 0.8rem;
+    }
+  }
