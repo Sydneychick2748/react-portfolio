@@ -114,6 +114,7 @@
 
   img{
     width: 100%;
+    height: 80%;
     display: block;
     object-fit: cover;
     
@@ -164,6 +165,9 @@
   .btn.sm{
     padding: 0.5rem 1.2rem;
     
+  }
+  #floating-nav{
+    display:none;
   }
 
   /* media queries  for tablet*/

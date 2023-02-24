@@ -1,5 +1,5 @@
 import "./header.css";
-// import HeaderImage from '../../assets/images/HeaderImage.jpg';
+import HeaderImage from '../../assets/bugpic.jpg';
 import data from "./data";
 
 const Header = () => {
@@ -7,21 +7,13 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile">
-          <img src="" alt="portrait" />
+          <img src={HeaderImage} alt="portrait" />
         </div>
         <h3>Ana Bennett</h3>
 
         <p>
-          As a passionate Full Stack Web Developer, I take pride in designing
-          visually appealing and highly functional websites. Recently graduated
-          from the UCSD fullstack web development Extension classes, I am a
-          driven, self-motivated, and dedicated individual who thrives in a
-          team-oriented environment. I possess a problem-solving mindset and
-          welcome new challenges, always striving to enhance my skills and
-          knowledge. My ability to quickly absorb information and think
-          creatively enables me to approach problem-solving in unique ways.
-          Overall, I am committed to continuous learning and improvement in my
-          craft.
+        "Welcome to my portfolio, where I showcase my passion for web development and design."
+          
         </p>
         <div className="header__cta">
           <a href="#contact" className="btn primary">

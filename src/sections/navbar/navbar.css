@@ -15,19 +15,26 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items:center;
+    color: white;
 }
 
 .nav__logo{
-    width:2.5rem;
+     width:2.5rem;
     overflow: hidden;
     border-radius: 50%;
-}
+} 
 .nav__menu{
     display: flex;
     gap: 3.5rem;
 
 
 }
+
+nav a:hover{
+color:rgb(33, 188, 136);
+
+}
+
 #theme__icon{
     background: transparent;
     color:white;

@@ -1,4 +1,4 @@
-//  import Logo from '../../assets/images/brain.jpg';
+ import Logo from '../../assets/brain.jpg';
 import './navbar.css';
 import data from './data';
 import {IoIosColorPalette} from 'react-icons/io';
@@ -10,7 +10,7 @@ const NavBar = () => {
         <nav>
             <div className=' container nav__container'>
                   <a href='index.html' className='nav__logo' >
-                    <img src="" alt='' />  
+                    <img src={Logo} alt='' />  
                 </a> 
                 <ul className='nav__menu'>
                {
