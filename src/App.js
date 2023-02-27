@@ -1,3 +1,6 @@
+    import React from 'react';
+    
+    
 
 import './App.css';
 import NavBar from './sections/navbar/NavBar';
@@ -14,6 +17,7 @@ import Footer from './sections/footer/Footer';
 const App = () => {
   return (
   <main>
+   
      <NavBar />
      <Header/>
      <About/>

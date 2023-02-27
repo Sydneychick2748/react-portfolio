@@ -1,40 +1,44 @@
 // import contacts from './data'
+import emailjs from 'emailjs-com';
+import React , { useRef } from 'react'
 import './contact.css'
+// import {MdOutlineEmail} from 'react-icons/md'
+// import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
+    const form = useRef();
+
+const sendEmail = (e) => {
+    e.preventDefault();
+     emailjs.sendForm('service_t7ndxho', 'template_80lpey8', e.target, 'user_1x9x9x9')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
+
+
+
   return (
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>
-        Shoot me a message!
-      </p>
-      <div className="container contact__container" data-aos="fade-up">
-        <form>
-          <ul>
-            <li>
-              <input type="text" name="name" placeholder="Name"  required/>
-            </li>
-            <li>
-              <input type="email"  name="email" placeholder="Email" required />
+    <section id='contact'>
+       
+        <h2>Contact Me</h2>
+         <div className=' container contact-container'> 
+             <div className='contact__options'>
+               <h4>Please Contact me if you have any questions  </h4>
 
-            </li>
-            <li>
-              <input type="text" name="subject" placeholder="Subject" required />
-            </li>
-            <li>
-              <textarea name="message"  placeholder="Message" required></textarea>
-            </li>
-            <li>
-              <button type="submit">Send Message</button>
-            </li>
+                    </div> 
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input type="text" placeholder=" Your Full Name" name="name" required/>
+                        <input type="email" placeholder=" Your Email" name="email" required/>
+                        <textarea placeholder=" Your Message" name="message"  row="7" required></textarea>
+                        <button type="submit" className="btn btn primary">Send Message</button>
+                    </form>
+                     </div> 
+                    </section>
 
-
-          </ul>
-
-        </form>
-      </div>
-    </section>
   )
-}
-
+};
 export default Contact
