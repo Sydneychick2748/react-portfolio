@@ -1,7 +1,7 @@
  import Logo from '../../assets/brain.jpg';
 import './navbar.css';
 import data from './data';
-import {IoIosColorPalette} from 'react-icons/io';
+
 
 
 
@@ -19,9 +19,7 @@ const NavBar = () => {
 
 
                 </ul>
-                    <button id ="theme__icon">
-                     <IoIosColorPalette/>
-                    </button>
+                   
                 </div>
         </nav>
           

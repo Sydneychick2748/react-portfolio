@@ -10,13 +10,13 @@ const Contact = () => {
 
 const sendEmail = (e) => {
     e.preventDefault();
-     emailjs.sendForm('service_t7ndxho', 'template_80lpey8', e.target, 'user_1x9x9x9')
+     emailjs.sendForm('service_t7ndxho', 'template_80lpey8', form.current, 'zyZ8vd-oHE5z9TEWv')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
-        e.target.reset()
+        form.current.reset()
     };
 
 

@@ -24,7 +24,6 @@ const App = () => {
     <Portfolio/>
     <Resume/>
     <Contact/>
-  
     <Footer/>
     <FloatingNav/>
 
