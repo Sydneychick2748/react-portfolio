@@ -25,9 +25,13 @@ so that they can assess whether they're a good candidate for an open position.It
 ## Installation
  
  The installation process for this project that was used:
- -made a repo in github
- -installed the npm i create-react-app
- -Then set up the folder structure 
+
+ .made a repo in github
+
+ .installed the npm i create-react-app
+
+ .Then set up the folder structure 
+ 
  In order to use the application locally, Run the following command:
  npm start 
  
