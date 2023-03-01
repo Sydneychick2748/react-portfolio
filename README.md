@@ -85,7 +85,8 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 
-![image](https://user-images.githubusercontent.com/87034052/222059575-788976be-d0e6-45b5-a4aa-5fdb346cfc0a.png)
+![image](https://user-images.githubusercontent.com/87034052/222231572-49a833ec-729d-43a1-bebb-67fb01c6da7e.png)
+
 
 
 WHEN I view the footer
