@@ -27,7 +27,7 @@ const sendEmail = (e) => {
         <h2>Contact Me</h2>
          <div className=' container contact-container'> 
              <div className='contact__options'>
-               <h4>Please Contact me if you have any questions  </h4>
+               <h4> I would love to here from you ! </h4>
 
                     </div> 
                     <form ref={form} onSubmit={sendEmail}>
