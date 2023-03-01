@@ -31,9 +31,9 @@ const sendEmail = (e) => {
 
                     </div> 
                     <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" placeholder=" Your Full Name" name="name" required/>
-                        <input type="email" placeholder=" Your Email" name="email" required/>
-                        <textarea placeholder=" Your Message" name="message"  row="7" required></textarea>
+                        <input type="text" placeholder=" Your Full Name" name="name" className='text' required/>
+                        <input type="email" placeholder=" Your Email" name="email" className='email' required/>
+                        <textarea placeholder=" Your Message" name="message"  row="7"  className="message"required ></textarea>
                         <button type="submit" className="btn btn primary">Send Message</button>
                     </form>
                      </div> 

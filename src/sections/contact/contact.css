@@ -33,7 +33,7 @@ float:left;
 } 
 
 
-/* .text{
+ .text{
     width:100%;
     border:0;
     background: var(--color-light);
@@ -41,9 +41,9 @@ float:left;
     font-size: 16px;
     color:GREY;
     padding: 20px;
-    min-height: 150px;
+    min-height: 60px;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 1px solid black;
     transition: var(--transition);
 }
 .email{
@@ -54,13 +54,13 @@ float:left;
     font-size: 16px;
     color:GREY;
     padding: 20px;
-    min-height: 150px;
+    min-height: 60px;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 1px solid black;
     transition: var(--transition);
 
-} */
-/* .message{
+}
+ .message{
     width:100%;
     border:0;
     background: var(--color-light);
@@ -70,7 +70,7 @@ float:left;
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 1px solid black;
     transition: var(--transition);
 }
 .submit-btn{
@@ -97,10 +97,10 @@ float:left;
     transition: var(--transition);
    
     border-radius: var(--border-radius-2);
-} */
+} 
     
 
-/* .text:hover {
+ .text:hover {
     background-color: var(--color-primary);
     color: var(--color-dark);
 
@@ -114,25 +114,34 @@ float:left;
     background-color: var(--color-primary);
     color: var(--color-dark);
 
-} */
+} 
 
 
-/* .container.contact__container{
+ .container.contact__container{
     display: flex;
     
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12rem;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 }
+    
+
 
 .contact__options{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
+
+
 
 .contact__option{
     background-color: var(--color-light);
@@ -161,10 +170,11 @@ float:left;
 }
 
 /* this is the form  */
-/* form{
+ form{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    
 }
 
 input, textarea{
@@ -176,7 +186,7 @@ input, textarea{
     background:transparent;
     resize: none;
     color:var(--color-dark) ;
-} 
+}  
 
 
 /* MEDIA QUERIES (tablet) */

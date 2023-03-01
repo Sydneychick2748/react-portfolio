@@ -31,6 +31,15 @@ margin:1.2rem 0 2rem;
     gap:1rem;
     margin-bottom: 1rem;
 }
+.sml__heading{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
 
 /* this is for tablet  */
 @media screen and (max-width: 1024px){

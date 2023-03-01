@@ -8,7 +8,7 @@ import MyResume from "../../assets/myResume.jpeg";
 
 const Resume = () => {
   return (
-    <section id="about">
+    <section id="resume">
       <div className=" container about__container">
         <div className="about__left">
           <div className="about__portrait">
