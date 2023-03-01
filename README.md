@@ -61,6 +61,8 @@ THEN the Home title and section are selected by default
 WHEN I am presented with the About Me section
 THEN I see a recent photo or avatar of the developer and a short bio about them
 
+![image](https://user-images.githubusercontent.com/87034052/222229089-7cd8c60d-3d3a-4e09-ad71-5cf8f691b8a4.png)
+
 
 
 
@@ -76,7 +78,8 @@ THEN I receive a notification that this field is required
 WHEN I enter text into the email address field
 THEN I receive a notification if I have entered an invalid email address
 
-[image](https://user-images.githubusercontent.com/87034052/222059505-465afeb5-de5f-4933-bd5a-f19c2fd3beae.png)
+![image](https://user-images.githubusercontent.com/87034052/222230140-e83f1b97-3ce0-4eb9-b0ad-abd058988e8d.png)
+
 
 
 WHEN I am presented with the Resume section
@@ -89,16 +92,9 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ![image](https://user-images.githubusercontent.com/87034052/222059636-0084b829-c914-42fc-b1b5-09a3f611febf.png)
-<!-- ![image](https://user-images.githubusercontent.com/87034052/222059283-8bf65144-7159-41bf-8ce1-f06c544b9828.png)
-![image](https://user-images.githubusercontent.com/87034052/222059380-74c29546-c525-4cac-b4b4-3e281ac250b9.png) -->
-<!-- ![image](https://user-images.githubusercontent.com/87034052/222059444-c5c11fd1-6296-41f1-ac2a-dc5a5b428775.png) -->
-<!-- ![image](https://user-images.githubusercontent.com/87034052/222059505-465afeb5-de5f-4933-bd5a-f19c2fd3beae.png) -->
-<!-- ![image](https://user-images.githubusercontent.com/87034052/222226745-d182d086-25fc-4824-a568-c724a802f1bd.png) -->
-
-<!-- ![image](https://user-images.githubusercontent.com/87034052/222059575-788976be-d0e6-45b5-a4aa-5fdb346cfc0a.png) -->
-<!-- ![image](https://user-images.githubusercontent.com/87034052/222059636-0084b829-c914-42fc-b1b5-09a3f611febf.png) -->
 
 WHEN I view on mobile and desktop then the nav bar is still present and styled accordingly to fix the screen
+
 ![image](https://user-images.githubusercontent.com/87034052/222059686-56564865-01cc-4658-bcb8-9b9350cd6d94.png)
 
 
