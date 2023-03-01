@@ -6,9 +6,11 @@ import Header from "./sections/header/Header";
 import About from "./sections/about/About";
 import Portfolio from "./sections/portfolio/Portfolio";
 import Contact from "./sections/contact/Contact";
-import FloatingNav from "./sections/floating-nav/FloatingNav";
+
 import Resume from "./sections/resume/Resume";
 import Footer from "./sections/footer/Footer";
+
+import  FloatingNav  from "./sections/floating-nav/FloatingNav";
 
 const App = () => {
   return (
@@ -20,7 +22,10 @@ const App = () => {
       <Resume />
       <Contact />
       <Footer />
-      <FloatingNav />
+      
+      <FloatingNav/>
+    
+     
     </main>
   );
 };

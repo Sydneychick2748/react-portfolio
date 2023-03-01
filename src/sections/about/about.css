@@ -8,16 +8,27 @@
            
            height: fit-content;
            max-height: 40rem;
-             border: 10rem solid var(--color-dark); 
+             border: 1rem solid var(--color-white); 
            transition: var(--transition);
           
            
            
        }
-       .about__portrait .about__left{
-              
-              border-radius: 20rem;
-       }
+
+         .about__left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 80%;
+                border-radius: 20rem;
+                overflow: hidden;
+                position: relative;
+                z-index: 1;
+                transition: var(--transition);
+                ;
+         }
+       
 
     
        .about__portrait:hover{
