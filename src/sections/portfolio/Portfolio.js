@@ -42,7 +42,7 @@ const data = [
         image: img5,
         title: "Lyrics-API-Project- This is a full stack application that allows users to search for a song and get the lyrics.",
         github: "https://github.com/Sydneychick2748/Lyrics-API-Project",
-        demo: "https://genius.com/artists/Katy-perry"
+        demo: "https://fmaldmed.github.io/Lyrics-API-Project/"
 
     },
     {
