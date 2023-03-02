@@ -1,22 +1,29 @@
 // import contacts from './data'
 import emailjs from 'emailjs-com';
-import React , { useRef } from 'react'
+import React , { useRef, } from 'react'
+import { useState } from 'react'
 import './contact.css'
 // import {MdOutlineEmail} from 'react-icons/md'
 // import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
     const form = useRef();
+    const [confirmationMessage, setConfirmationMessage] = useState("");
 
 const sendEmail = (e) => {
     e.preventDefault();
      emailjs.sendForm('service_t7ndxho', 'template_80lpey8', form.current, 'zyZ8vd-oHE5z9TEWv')
         .then((result) => {
             console.log(result.text);
+            setConfirmationMessage("Email has been sent!")
+            setTimeout(() => {
+                setConfirmationMessage("")
+            }, 5000)
+             
         }, (error) => {
             console.log(error.text);
         });
-        form.current.reset()
+        form.current.reset( )
     };
 
 
@@ -35,6 +42,10 @@ const sendEmail = (e) => {
                         <input type="email" placeholder=" Your Email" name="email" className='email' required/>
                         <textarea placeholder=" Your Message" name="message"  row="7"  className="message"required ></textarea>
                         <button type="submit" className="btn btn primary">Send Message</button>
+                        <div>
+  
+                        <p> {confirmationMessage }</p>
+                        </div>
                     </form>
                      </div> 
                     </section>
