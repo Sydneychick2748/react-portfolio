@@ -44,7 +44,7 @@ const sendEmail = (e) => {
                         <button type="submit" className="btn btn primary">Send Message</button>
                         <div>
   
-                        <p> {confirmationMessage }</p>
+                        <p className="conf__message"> {confirmationMessage }</p>
                         </div>
                     </form>
                      </div> 

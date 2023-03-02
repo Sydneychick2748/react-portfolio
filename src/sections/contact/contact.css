@@ -169,6 +169,16 @@ float:left;
     font-size: 0.8rem;
 }
 
+.conf__message{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: var(--color-primary);
+}
+
 /* this is the form  */
  form{
     display: flex;
