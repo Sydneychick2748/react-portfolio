@@ -48,9 +48,9 @@ const data = [
     {
         id: 6,
         image: img6,
-        title: "Code-Quiz- This is a quiz  front-end  JavaScript application that allows users to test their knowledge of coding.",
-        github: "https://github.com/Sydneychick2748/Code-Quiz",
-        demo: "https://sydneychick2748.github.io/Code-Quiz/"
+        title: "This is a full stack application that allows users to create an account and collaborate on code,This is a group project.",
+        github: "https://github.com/DallasSybrowsky/CodeCollab",
+        demo: "https://code-collab-dallas.herokuapp.com/"
     }
     
     ]
