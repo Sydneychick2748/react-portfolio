@@ -3,7 +3,7 @@
 ## Description
 
 As an employer looking for candidates with experience building single-page applications and want to view a potential employee's deployed React portfolio of work samples
-so that they can assess whether they're a good candidate for an open position.It's important to take the time to thoroughly evaluate a potential candidate's React skills before making a hiring decision. Look for evidence of strong problem-solving skills, a deep understanding of React best practices, and a passion for building high-quality web applications. 
+so that they can assess whether they're a good candidate for an open position.It's important to take the time to thoroughly evaluate a potential candidate's React skills before making a hiring decision. Look for evidence of strong problem-solving skills, a deep understanding of React best practices, and a passion for building high-quality web applications. This is the live site: https://sydneychick2748.github.io/react-portfolio/#portfolio
 
 
 
