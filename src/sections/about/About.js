@@ -11,7 +11,7 @@ const About = () => {
                         </div>
                     </div>
 <div className='about__right'>
-    <h2>About Me</h2>
+    <h3 classname="about-me-h2">About Me</h3>
     <div className="about__cards"></div>
 <p>
      As a passionate Full Stack Web Developer, I take pride in designing

@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns :35% 53%;
     gap:12%;
+    padding: 5em;
     ;
        }
     
@@ -82,6 +83,13 @@
       .my-image{
         border-radius: 10em 1em;
       }
+
+.about-me-h2{
+    font-family: 'Gloria Hallelujah', cursive ;
+}
+
+
+
      /* media query for mobile */ 
         @media screen and (max-width: 600px){
             

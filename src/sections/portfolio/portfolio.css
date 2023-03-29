@@ -6,11 +6,12 @@
     margin-top: 2rem;
 }
 .portfolio__item{
-    background: var(--color-light);
+    background: #50404D;
     padding: 2rem;
-    border-radius:10px;
+    border-radius:3em;
     transition: var(--transition);
     border: 1px solid transparent;
+   
 }
 .portfolio__item:hover{
     background: transparent;
@@ -24,6 +25,7 @@
 
 .portfolio__item h3{
 margin:1.2rem 0 2rem; 
+font-size: 1em;
 }
 
 .portfolio__item-cta{
@@ -39,6 +41,9 @@ margin:1.2rem 0 2rem;
     padding-top: 1rem;
     padding-bottom: 2rem;
 
+}
+#portfolio{
+  padding:15em;
 }
 
 /* this is for tablet  */
