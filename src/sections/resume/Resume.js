@@ -12,12 +12,12 @@ const Resume = () => {
       <div className=" container about__container">
         <div className="about__left">
           <div className="about__portrait">
-            <img src={MyResume} alt="portrait" />
+            <img  className="resume-img" src={MyResume} alt="portrait" />
           </div>
         </div>
         <div className="about__right">
-          <h2>My Resume</h2>
-          <br />
+          <h3>My Resume</h3>
+         
           <br />
           <h5> Check out my skills </h5>
           <div className="about__cards">

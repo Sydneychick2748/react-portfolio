@@ -63,7 +63,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       
-      <h3>Portfolio</h3>
+      <h3 className="portfolio-h3">Portfolio</h3>
       <div className="sml__heading">
       <h5>My Recent Work</h5>
       </div>

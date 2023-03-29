@@ -28,11 +28,12 @@ gap:12%;
 
    .card.about__card{
     text-align: center;
+    border-radius: 1em;
    }
 
    .about__card-icon{
          font-size: 1.3rem;
-        color: var(--color-black);
+        color: #F7F5F6;
         border-radius: var(--boarder-radius-3);
         width:fit-content;
         margin-inline:auto;
@@ -43,12 +44,13 @@ gap:12%;
    }
 
    .card.about__card:hover .about__card-icon{
-        background-color: var(--color-primary);
-        color: var(--color-white);
+        background-color: #9966CC;
+        color: #F7F5F6;
 
    }
    .card.about__card h5 {
     margin: 1rem 0;
+
 
    }
 
@@ -59,6 +61,11 @@ gap:12%;
    .about__right .btn{
     margin-top: 2.5rem;
    }
+
+.resume-img{
+    border-radius: 50%;
+}
+
  /* media query for mobile */ 
     @media screen and (max-width: 600px){
         

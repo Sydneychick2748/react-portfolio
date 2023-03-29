@@ -45,6 +45,14 @@ font-size: 1em;
 #portfolio{
   padding:15em;
 }
+.portfolio-h3{
+    display: flex;
+    justify-content:center;
+}
+a.btn{
+    color: #F7F5F6;
+}
+
 
 /* this is for tablet  */
 @media screen and (max-width: 1024px){
