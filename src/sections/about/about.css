@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns :35% 53%;
     gap:12%;
+    ;
        }
     
        .about__portrait{
@@ -48,7 +49,7 @@
     
        .about__card-icon{
              font-size: 1.3rem;
-            color: var(--color-black);
+            color: #F7F5F6;
             border-radius: var(--boarder-radius-3);
             width:fit-content;
             margin-inline:auto;
@@ -63,6 +64,7 @@
             color: var(--color-white);
     
        }
+       
        .card.about__card h5 {
         margin: 1rem 0;
     
@@ -70,11 +72,16 @@
     
        .about__right p {
         margin-bottom: 0.8rem;
+        color:#F7F5F6 ;
        }
     
        .about__right .btn{
         margin-top: 2.5rem;
        }
+
+      .my-image{
+        border-radius: 10em 1em;
+      }
      /* media query for mobile */ 
         @media screen and (max-width: 600px){
             
@@ -105,6 +112,7 @@
                
                 width:40vw;
              }
+
         }
 
         /* media for phone  */

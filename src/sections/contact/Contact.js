@@ -3,8 +3,6 @@ import emailjs from 'emailjs-com';
 import React , { useRef, } from 'react'
 import { useState } from 'react'
 import './contact.css'
-// import {MdOutlineEmail} from 'react-icons/md'
-// import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
     const form = useRef();

@@ -7,7 +7,7 @@ const Header = () => {
     <header id="header">
       <div className="container header__container">
         <div className="header__profile">
-          <img src={HeaderImage} alt="portrait" />
+          <img  className="bug-image" src={HeaderImage} alt="portrait" />
         </div>
         <h3>Ana Bennett</h3>
 
@@ -23,18 +23,7 @@ const Header = () => {
             My Work
           </a>
         </div>
-        <div className="header__socials">
-          {data.map((item) => (
-            <a
-              key={item.id}
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {item.icon}
-            </a>
-          ))}
-        </div>
+       
       </div>
     </header>
   );

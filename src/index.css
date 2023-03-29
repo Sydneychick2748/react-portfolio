@@ -3,7 +3,7 @@
   padding: 0;
   border:0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Gloria Hallelujah', cursive;
   list-style: none;
   text-decoration: none;
   
@@ -59,12 +59,12 @@
     /* general section  styles*/ 
     section{
       padding: 10rem 0;
-      background: var(--color-light);
+      background: #50404D;
       transition: var(--transition);
     }
 
     section:nth-child(even){
-      background: white;
+      background:#1F201F ;
     }
     section > h2{
       text-align: center;
@@ -80,7 +80,7 @@
 
     /* general section tag */
     a{
-      color: var(--color-white); 
+      color: #F7F5F6; 
       transition: var(--transition);
     }
 
@@ -88,8 +88,10 @@
     */
 
     h1,h2,h3,h4,h5,h6{
-      line-height: 1.1;
-      color: var(--color-dark);
+      line-height: 1.5;
+      color: #F7F5F6;
+      font-weight: 700;
+      font-size: 2rem;
       
     }
     h1{
@@ -127,7 +129,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--color-light);
+    background: #9E7BB5;
     color: var(--color-black);
     padding:0.6rem 2.5rem ;
     border: 2px solid transparent;
@@ -139,7 +141,7 @@
   .btn:hover{
     background-color:transparent ;
     transform: var(-0.5rem);
-    border-color: var(--color-light);
+    border-color: #A32CC4;
   }
 
   .btn.white{
@@ -153,18 +155,21 @@
   }
   
   .btn.primary{
-    background: var(--color-primary);
-    color: white;
+    background: #86608E;
+    color:  #F7F5F6;
   }
   .btn.primary:hover{
     background:transparent ;
-    color: var(--color-primary);
-    border-color: var(--color-primary);
+    color: #F7F5F6 ;
+    border-color:#A32CC4;
   }
 
   .btn.sm{
     padding: 0.5rem 1.2rem;
     
+  }
+  .btn.light{
+color: #F7F5F6;
   }
   #floating-nav{
     display:none;
