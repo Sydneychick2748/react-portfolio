@@ -50,9 +50,14 @@ gap:12%;
    }
    .card.about__card h5 {
     margin: 1rem 0;
-
-
    }
+    
+.skills-h5{
+display: flex;
+justify-content: center;
+}
+
+   
 
    .about__right p {
     margin-bottom: 0.8rem;

@@ -19,7 +19,7 @@ const Resume = () => {
           <h3>My Resume</h3>
          
           <br />
-          <h5> Check out my skills </h5>
+          <h5 className="skills-h5"> Check out my skills </h5>
           <div className="about__cards">
          
             {data.map((item) => (

@@ -29,10 +29,10 @@ const sendEmail = (e) => {
   return (
     <section id='contact'>
        
-        <h2>Contact Me</h2>
+        <h3 >Contact Me</h3>
          <div className=' container contact-container'> 
              <div className='contact__options'>
-               <h4> I would love to here from you ! </h4>
+               <h5> I would love to here from you ! </h5>
 
                     </div> 
                     <form ref={form} onSubmit={sendEmail}>

@@ -10,16 +10,16 @@
 
 }
  :root{
-  --primary-hue:270;
+   --primary-hue:270;
   --black-lightness: 15%;
   --dark-lightness: 44%;
-  --light-lightness: 94%;
-  --color-primary: hsl(var(--primary-hue), 89%, 41%);
-  --color-white: hsl(0, 5%, var(--white-lightness));
+  --light-lightness: 94%; 
+  /* --color-primary: hsl(var(--primary-hue), 89%, 41%); */
+  /* --color-white: hsl(0, 5%, var(--white-lightness));
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
   --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness)); */
 
 
   /* container vars */
@@ -106,12 +106,15 @@
     }
     h3{
       font-size: 1.6rem;
+      display: flex;
+      justify-content: center;
     }
     h4{
       font-size: 1.1rem;
     }
     h5{
       font-size: 0.95rem;
+      color:#9E7BB5 ;
     }
     h6{
       font-size: 0.8rem;
@@ -219,6 +222,8 @@ color: #F7F5F6;
     }
     h5{
       font-size: 0.9rem;
+      display: flex;
+    justify-content: center;
     }
     h6{
       font-size: 0.8rem;
