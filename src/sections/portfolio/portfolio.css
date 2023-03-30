@@ -15,7 +15,7 @@
 }
 .portfolio__item:hover{
     background: transparent;
-    border: 1px solid var(--color-white);
+    border: 1px solid ;
     transform: translateY(-0.5rem);
 }
 .portfolio__item-image{
@@ -43,7 +43,8 @@ font-size: 1em;
 
 }
 #portfolio{
-  padding:15em;
+  
+    padding: 6rem ;
 }
 .portfolio-h3{
     display: flex;
@@ -61,6 +62,13 @@ a.btn{
     
         gap: 1rem;
     }
+
+    
+    #portfolio{
+  
+        padding: 3em ;
+    }
+   
 }
 
 /* this is for phone */
@@ -69,5 +77,21 @@ a.btn{
         grid-template-columns: 1fr;
         gap:1rem;
     }
+    
 }
 
+@media screen and (max-width: 400px){
+    /* .portfolio__container {
+       
+        margin-left:-1em,
+    } */
+    .portfolio__item {
+        background: #50404D;
+        padding: 2rem;
+        border-radius: 3em;
+        transition: var(--transition);
+        border: 1px solid transparent;
+        margin-left: -1em;
+    }
+    
+}

@@ -3,7 +3,7 @@
   padding: 0;
   border:0;
   box-sizing: border-box;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Gruppo', cursive;
   list-style: none;
   text-decoration: none;
   
@@ -14,12 +14,12 @@
   --black-lightness: 15%;
   --dark-lightness: 44%;
   --light-lightness: 94%; 
-  /* --color-primary: hsl(var(--primary-hue), 89%, 41%); */
-  /* --color-white: hsl(0, 5%, var(--white-lightness));
+  --color-primary: hsl(var(--primary-hue), 89%, 41%); 
+   --color-white: hsl(0, 5%, var(--white-lightness));
   --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
   --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
   --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
-  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness)); */
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
 
 
   /* container vars */

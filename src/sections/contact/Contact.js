@@ -32,7 +32,7 @@ const sendEmail = (e) => {
         <h3 >Contact Me</h3>
          <div className=' container contact-container'> 
              <div className='contact__options'>
-               <h5> I would love to here from you ! </h5>
+               <h5> I would love to hear from you ! </h5>
 
                     </div> 
                     <form ref={form} onSubmit={sendEmail}>
@@ -40,7 +40,7 @@ const sendEmail = (e) => {
                         <input type="email" placeholder=" Your Email" name="email" className='email' required/>
                         <textarea placeholder=" Your Message" name="message"  row="7"  className="message"required ></textarea>
                         <button type="submit" className="btn btn primary">Send Message</button>
-                        <div>
+                        <div >
   
                         <p className="conf__message"> {confirmationMessage }</p>
                         </div>

@@ -19,13 +19,15 @@ li{
     margin-bottom:10px;
     padding:0;
     overflow: hidden;
-
-     
-     
-    
-    
-    
 }
+.conf__message{
+    color: #86608E !important;
+   }  
+     
+    
+    
+    
+
 li.half{
 width:49%;
 margin-left: 2%;
@@ -36,47 +38,47 @@ float:left;
  .text{
     width:100%;
     border:0;
-    background: var(--color-light);
+    background:  #1F201F;
     height:50px;
     font-size: 16px;
     color:GREY;
     padding: 20px;
     min-height: 60px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid  #86608E;
     transition: var(--transition);
 }
 .email{
     width:100%;
     border:0;
-    background: var(--color-light);
+    background:  #1F201F;
     height:50px;
     font-size: 16px;
     color:GREY;
     padding: 20px;
     min-height: 60px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid  #86608E;
     transition: var(--transition);
 
 }
  .message{
     width:100%;
     border:0;
-    background: var(--color-light);
+    background: #1F201F;
     height:50px;
     font-size: 16px;
     color:GREY;
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid   #86608E;
     transition: var(--transition);
 }
 .submit-btn{
    
-    background: var(--color-primary);
-    color: var(--color-white);
+    background: #1F201F;
+    color:  #F7F5F6;
     font-size: 16px;
     font-weight: 600;
     padding: 20px;
@@ -93,7 +95,7 @@ float:left;
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 20px;
-    border: 2px solid white;
+    border: 2px solid  #F7F5F6;
     transition: var(--transition);
    
     border-radius: var(--border-radius-2);
@@ -101,18 +103,18 @@ float:left;
     
 
  .text:hover {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
+    background-color:#86608E ;
+    color:  #F7F5F6;
 
 }
 .message:hover {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
+    background-color:#86608E;
+    color:  #F7F5F6;
 
 }
 .email:hover {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
+    background-color: #86608E;
+    color:  #F7F5F6;
 
 } 
 
@@ -144,7 +146,7 @@ float:left;
 
 
 .contact__option{
-    background-color: var(--color-light);
+    background-color:#4C2882;
     padding: 2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -159,7 +161,7 @@ float:left;
 
 .contact__option-icon{
     font-size: 3rem;
-    color: var(--color-primary);
+    color: #4C2882;
     margin-bottom: 0.5rem;
 }
 
@@ -184,8 +186,14 @@ float:left;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-left: 10em;
-    padding-right: 10em;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+
+    
     
 }
 
@@ -216,3 +224,17 @@ input, textarea{
    
     }
 }
+
+@media screen and (max-width: 450px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+    }
+

@@ -5,12 +5,12 @@
 
 
 /* MEDIA QUERIES (tablets and phones */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 0px) {
     #floating__nav {
         display: flex;
         align-items: center;
         position: fixed;
-        bottom: 3rem;
+       top:-2em;
         left: 50%;
         transform: translateX(-50%);
         z-index: 9;

@@ -53,10 +53,28 @@ color:#9966CC;
 }
 
 /* on tab and mobile  */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 450px){
     .nav__menu{
         display: none;
     }
+  
+        .bug-image {
+            --x: 0px;
+            --y: 0px;
+            transform: translate(var(--x), var(--y));
+            border-radius: 9rem 9rem 2rem 2rem;
+            position: absolute;
+            top: 20em;
+            left: 0em;
+            width: 100%;
+            height: 25%;
+            object-fit: cover;
+            
+
+            
+        }     
+       
+
 
 
 }
