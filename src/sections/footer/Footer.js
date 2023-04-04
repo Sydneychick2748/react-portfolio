@@ -3,7 +3,7 @@ import './footer.css';
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-// import { AiOutlineMail } from "react-icons/ai";
+
 
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <footer>
            
             <ul className='permalinks'>
-                <li><a href='#'>Home</a></li>
+                <li><a href='#header'>Home</a></li>
                 <li><a href='#about'>About</a></li>
                 <li><a href='#resume'>Resume</a></li>
                 <li><a href='#contact'>Contact</a></li>

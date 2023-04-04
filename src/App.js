@@ -10,11 +10,12 @@ import Contact from "./sections/contact/Contact";
 import Resume from "./sections/resume/Resume";
 import Footer from "./sections/footer/Footer";
 
-import  FloatingNav  from "./sections/floating-nav/FloatingNav";
+
 
 const App = () => {
   return (
     <main>
+      
       <NavBar />
       <Header />
       <About />
@@ -23,7 +24,7 @@ const App = () => {
       <Contact />
       <Footer />
       
-      <FloatingNav/>
+     
     
      
     </main>
