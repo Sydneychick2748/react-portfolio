@@ -1,9 +1,19 @@
 import "./header.css";
 import HeaderImage from "../../assets/bugpic.jpg";
+import Sparkles from "react-sparkle";
 
 const Header = () => {
   return (
     <header id="header">
+      <Sparkles
+              flicker={false}
+              color="aquamarine"
+              count={20}
+              minSize={12}
+              maxSize={20}
+              overflowPx={80}
+              fadeOutSpeed={10}
+            />
       <div className="container header__container">
         <div className="header__profile">
           <img className="bug-image" src={HeaderImage} alt="portrait" />

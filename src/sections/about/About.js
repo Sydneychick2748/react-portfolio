@@ -1,6 +1,7 @@
 import './about.css';
 import AboutImage from '../../assets/aboutImage.jpg';
 
+
 const About = () => {
     return (
         <section id='about'>
@@ -11,7 +12,8 @@ const About = () => {
                         </div>
                     </div>
 <div className='about__right'>
-    <h3 classname="about-me-h2">About Me</h3>
+
+    <h3 className="about-me-h2">About Me</h3>
     <div className="about__cards"></div>
 <p>
      As a passionate Full Stack Web Developer, I take pride in designing

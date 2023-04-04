@@ -10,6 +10,7 @@ const Resume = () => {
   return (
     <section id="resume">
       <div className=" container about__container">
+      
         <div className="about__left">
           <div className="about__portrait">
             <img  className="resume-img" src={MyResume} alt="portrait" />

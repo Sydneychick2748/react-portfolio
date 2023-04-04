@@ -4,6 +4,7 @@ import React , { useRef, } from 'react'
 import { useState } from 'react'
 import './contact.css'
 
+
 const Contact = () => {
     const form = useRef();
     const [confirmationMessage, setConfirmationMessage] = useState("");
@@ -28,10 +29,16 @@ const sendEmail = (e) => {
 
   return (
     <section id='contact'>
+         {/* <div>
+            <Sparkles color="#f5f5f5" fadeOutSpeed={0.1} numElements={100} />    
+
+         </div> */}
        
         <h3 >Contact Me</h3>
          <div className=' container contact-container'> 
+         
              <div className='contact__options'>
+             
                <h5> I would love to hear from you ! </h5>
 
                     </div> 

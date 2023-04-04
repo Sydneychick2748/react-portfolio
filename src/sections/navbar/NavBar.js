@@ -18,19 +18,19 @@ function NavBar() {
           </a> */}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <a href="/">HOME</a>
+              <a href="/header">HOME</a>
             </li>
             <li className="nav-item">
-              <a href="/#about">ABOUT</a>
+              <a href="/about">ABOUT</a>
             </li>
             <li className="nav-item">
-              <a href="/#portfolio">PORTFOLIO</a>
+              <a href="/portfolio">PORTFOLIO</a>
             </li>
             <li className="nav-item">
-              <a href="/#resume">RESUME</a>
+              <a href="/resume">RESUME</a>
             </li>
             <li className="nav-item">
-              <a href="/#contact">CONTACT</a>
+              <a href="/contact">CONTACT</a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
