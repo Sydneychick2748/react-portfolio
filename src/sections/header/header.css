@@ -219,6 +219,40 @@ span {
    .header__socials{
        display: none;
    }
+   .bug-image {
+    --x: 0px;
+    --y: 0px;
+    transform: translate(var(--x), var(--y));
+    border-radius: 9rem 9rem 2rem 2rem;
+    position: absolute;
+    top: 20em;
+    right: 2.5em;
+    width: 80%;
+    height: 25%;
+    object-fit: cover;
+    
+}
+.bug-image{
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,20deg));
+  border-radius: 9rem 9rem 2rem 2rem ; 
+  clip-path: polygon(       
+     var(--y)              var(--y),       
+     calc(100% - var(--y)) var(--y),       
+     calc(100% - var(--y)) calc(100% - var(--y)),       
+     calc(100% - var(--y) - var(--x)) var(--_c,100%),       
+     calc(var(--x) + var(--y))        var(--_c,100%),      
+     var(--y)        calc(100% - var(--y))       
+     );
+   outline: var(--y) solid rgba( 31, 32, 31, 0.4); 
+  outline-offset: calc(-1*var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+ 
+ 
+  
+}
 
    
 }
@@ -227,4 +261,78 @@ span {
   body{
     font-size: 0.7em;
   }
+  .bug-image {
+    --x: 0px;
+    --y: 0px;
+    transform: translate(var(--x), var(--y));
+    border-radius: 9rem 9rem 2rem 2rem;
+    position: absolute;
+    top: 20em;
+    right: 2.5em;
+    width: 80%;
+    height: 25%;
+    object-fit: cover;
+    
+}
+.bug-image{
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,20deg));
+  border-radius: 9rem 9rem 2rem 2rem ; 
+  clip-path: polygon(       
+     var(--y)              var(--y),       
+     calc(100% - var(--y)) var(--y),       
+     calc(100% - var(--y)) calc(100% - var(--y)),       
+     calc(100% - var(--y) - var(--x)) var(--_c,100%),       
+     calc(var(--x) + var(--y))        var(--_c,100%),      
+     var(--y)        calc(100% - var(--y))       
+     );
+   outline: var(--y) solid rgba( 31, 32, 31, 0.4); 
+  outline-offset: calc(-1*var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+ 
+ 
+  
+}
+}
+
+@media screen and (max-width: 400px){
+  body{
+    font-size: 0.6em;
+  }
+  .bug-image {
+    --x: 0px;
+    --y: 0px;
+    transform: translate(var(--x), var(--y));
+    border-radius: 9rem 9rem 2rem 2rem;
+    position: absolute;
+    top: 20em;
+    right: 2.5em;
+    width: 80%;
+    height: 25%;
+    object-fit: cover;
+    
+}
+.bug-image{
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,20deg));
+  border-radius: 9rem 9rem 2rem 2rem ; 
+  clip-path: polygon(       
+     var(--y)              var(--y),       
+     calc(100% - var(--y)) var(--y),       
+     calc(100% - var(--y)) calc(100% - var(--y)),       
+     calc(100% - var(--y) - var(--x)) var(--_c,100%),       
+     calc(var(--x) + var(--y))        var(--_c,100%),      
+     var(--y)        calc(100% - var(--y))       
+     );
+   outline: var(--y) solid rgba( 31, 32, 31, 0.4); 
+  outline-offset: calc(-1*var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+ 
+ 
+  
+}
 }

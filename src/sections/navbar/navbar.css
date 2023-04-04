@@ -24,7 +24,7 @@
   display:flex;
     justify-content: space-evenly;
     align-items:center;
-    color: #F7F5F6;
+    color: #9E7BB5;
     
 }
 
@@ -128,7 +128,7 @@ nav a:hover{
 }
 
 /* Phone */
-@media only screen and (min-device-width: 375px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 314px) and (max-device-width: 820px) {
     .nav-menu.active {
         background: #9E7BB5;
         left: 0px;
@@ -139,19 +139,19 @@ nav a:hover{
         align-items: center; 
     
     }
-    .bug-image {
+    /* .bug-image {
         --x: 0px;
         --y: 0px;
         transform: translate(var(--x), var(--y));
         border-radius: 9rem 9rem 2rem 2rem;
         position: absolute;
         top: 20em;
-        left: 0em;
-        width: 100%;
+        right: 2.5em;
+        width: 80%;
         height: 25%;
         object-fit: cover;
         
-}
+} */
 }
 
 /* Tablet */
