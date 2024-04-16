@@ -1,6 +1,6 @@
 import React from "react";
 import "./resume.css";
-import CV from "../../assets/resume.jpg";
+import CV from "../../assets/resume.png";
 import { HiDownload } from "react-icons/hi";
 import Card from "../../components/Card";
 import data from "./data";

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
-import "./NavBar.css";
+import "./navbar.css";
 function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
