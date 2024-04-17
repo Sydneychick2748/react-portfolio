@@ -59,12 +59,12 @@
     /* general section  styles*/ 
     section{
       padding: 10rem 0;
-      background: #50404D;
+      background: #e7d6e4;
       transition: var(--transition);
     }
 
     section:nth-child(even){
-      background:#1F201F ;
+      background:#9d8a9f ;
     }
     section > h2{
       text-align: center;
@@ -91,7 +91,7 @@
 
     h1,h2,h3,h4,h5,h6{
       line-height: 1.5;
-      color: #F7F5F6;
+      color: #846c7a;
       font-weight: 700;
       font-size: 2rem;
       
@@ -114,7 +114,7 @@
     }
     h5{
       font-size: 0.95rem;
-      color:#9E7BB5 ;
+      color:#45374f ;
     }
     h6{
       font-size: 0.8rem;
