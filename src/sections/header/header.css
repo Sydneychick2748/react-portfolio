@@ -3,7 +3,7 @@ header{
     height:calc(100vh - 5rem);
     display: grid;
     place-items: center;
-    background:  #282527;
+    background:  #2b262a;
     transition: var(--transition);
    
 

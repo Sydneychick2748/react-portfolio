@@ -87,6 +87,10 @@
     font-family:  'Gruppo', cursive ;
 }
 
+.card{
+    background-color: #897e84 !important;
+}
+
 
 
      /* media query for mobile */ 

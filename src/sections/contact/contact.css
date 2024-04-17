@@ -38,7 +38,7 @@ float:left;
  .text{
     width:100%;
     border:0;
-    background:  #1F201F;
+    background:  #484449;
     height:50px;
     font-size: 16px;
     color:GREY;
@@ -51,7 +51,7 @@ float:left;
 .email{
     width:100%;
     border:0;
-    background:  #1F201F;
+    background:  #484449;
     height:50px;
     font-size: 16px;
     color:GREY;
@@ -65,10 +65,10 @@ float:left;
  .message{
     width:100%;
     border:0;
-    background: #1F201F;
+    background:  #484449;
     height:50px;
     font-size: 16px;
-    color:GREY;
+    color:rgb(128, 128, 128);
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
