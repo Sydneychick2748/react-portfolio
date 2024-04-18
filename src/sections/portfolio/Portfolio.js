@@ -11,9 +11,9 @@ const data = [
     {
         id: 1,
         image: img1,
-        title: "Bibliomania- This is a full stack application that allows users to search for books and save them to their profile.",
-        github: "https://github.com/DallasSybrowsky/Bibliomania",
-        demo: "https://bibliomania.herokuapp.com/"
+        title: "Tic-Tac-Toe game in React utilizes components to represent the game's elements, manages game state and logic, and provides a user interface for players to interact with the game",
+        github: "https://github.com/Sydneychick2748/TICTACTOE",
+        demo: "https://tictactoe-zeta-amber.vercel.app/"
     },
     {
         id: 2,
@@ -33,9 +33,9 @@ const data = [
         id: 4,
         image: img4,
 
-        title: "NoSQL-Social-Network-API - This is a back end application that allows users to create a profile, add friends, and create thoughts.",
-        github: "https://github.com/Sydneychick2748/NoSQL-Social-Network-API",
-        demo: "https://drive.google.com/file/d/1yE6cxkJLsqN-CJU2Ewo-xBRkTihuH8cK/view"
+        title: "Damien Shane is a live DJ website using React and React library's the site includes slideshow component,calendar for events, videos, email forms and links using css customer to the customer.",
+        github: "https://github.com/Sydneychick2748/DamienShane",
+        demo: "https://damienshaneofficial.com/"
     },
     {
         id: 5,
