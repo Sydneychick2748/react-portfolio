@@ -182,7 +182,9 @@ span {
   }
   
   
-
+  p{
+    font-size: 1.2rem;
+}
 
 
 /* this is tablet media querier */

@@ -207,7 +207,9 @@ input, textarea{
     resize: none;
     color:#4C2882 ;
 }  
-
+p{
+    font-size: 1.2rem;
+}
 
 /* MEDIA QUERIES (tablet) */
 @media screen and (max-width: 1024px) {

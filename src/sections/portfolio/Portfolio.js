@@ -1,13 +1,23 @@
 import "./portfolio.css";
-import img1 from "../../assets/img-1.png";
+import img1 from "../../assets/img1c.png";
 import img2 from "../../assets/img-2.png";
 import img3 from "../../assets/img-3.png";
 import img4 from "../../assets/img-4.png";
 import img5 from "../../assets/img-5.png";
 import img6 from "../../assets/img-6.png";
+import carbonImg from "../../assets/carbon.png";
+import { faChainBroken } from "@fortawesome/free-solid-svg-icons";
 
 
 const data = [
+    {
+        id: 1,
+        image: img1,
+
+        title: "Damien Shane is a live DJ website using React and React library's the site includes slideshow component,calendar for events, videos, email forms and links using css customer to the customer.",
+        github: "https://github.com/Sydneychick2748/DamienShane",
+        demo: "https://damienshaneofficial.com/"
+    },
     {
         id: 1,
         image: img1,
@@ -16,30 +26,15 @@ const data = [
         demo: "https://tictactoe-zeta-amber.vercel.app/"
     },
     {
-        id: 2,
-        image: img2,
-        title: "MVC-tech-blog- This is a full stack application that allows users to create an account and post blog posts.",
-        github: "https://github.com/Sydneychick2748/MVC-tech-blog",
-        demo: "https://thawing-gorge-64914.herokuapp.com/login"
-    },
-    {
         id: 3,
-        image: img3,
+        image: img1,
         title: "Api-Weather- This is a weather application that allows users to search for a city and get the current weather and a five day forecast.",
         github: "https://github.com/Sydneychick2748/api-weather-project",
         demo: "https://sydneychick2748.github.io/api-weather-project/"
     },
     {
-        id: 4,
-        image: img4,
-
-        title: "Damien Shane is a live DJ website using React and React library's the site includes slideshow component,calendar for events, videos, email forms and links using css customer to the customer.",
-        github: "https://github.com/Sydneychick2748/DamienShane",
-        demo: "https://damienshaneofficial.com/"
-    },
-    {
         id: 5,
-        image: img5,
+        image: img1,
         title: "Lyrics-API-Project- This is a full stack application that allows users to search for a song and get the lyrics.",
         github: "https://github.com/Sydneychick2748/Lyrics-API-Project",
         demo: "https://fmaldmed.github.io/Lyrics-API-Project/"
@@ -47,11 +42,21 @@ const data = [
     },
     {
         id: 6,
-        image: img6,
-        title: "This is a full stack application that allows users to create an account and collaborate on code,This is a group project.",
+        image: img1,
+        title: "This is a full stack application using React that allows users to create an account and collaborate on code,This is a group project.",
         github: "https://github.com/DallasSybrowsky/CodeCollab",
         demo: "https://code-collab-dallas.herokuapp.com/"
-    }
+    },
+    
+    {
+        id: 2,
+        image: img1,
+        title: "MVC-tech-blog- This is a full stack application that allows users to create an account and post blog posts.",
+        github: "https://github.com/Sydneychick2748/MVC-tech-blog",
+        demo: "https://thawing-gorge-64914.herokuapp.com/login"
+    },
+    
+    
     
     ]
 

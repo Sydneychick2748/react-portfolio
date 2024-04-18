@@ -91,11 +91,19 @@
     background-color: #897e84 !important;
 }
 
+p{
+    font-size: 1rem !important;
+}
 
 
      /* media query for mobile */ 
         @media screen and (max-width: 600px){
-            
+            .about__right p {
+                margin-bottom: 8rem ! important;
+            }
+            p{
+                font-size: 0.9rem;
+            }
             .about__cards{
                 grid-template-columns: 1fr 1fr;
                 gap:1rem;
@@ -108,6 +116,12 @@
     
      /* media query  for tablet  */
         @media screen and (max-width: 1024px){
+            .about__right p {
+                margin-bottom: 8rem !important;
+            }
+            p{
+                font-size: 0.9rem;
+            }
             .about__left{
                 display:none;
                
@@ -128,6 +142,9 @@
 
         /* media for phone  */
         @media screen and (max-width: 600px){
+            .about__right p {
+                margin-bottom: 8rem !important;
+            }
             .about__portrait{
                
                width:50vw;

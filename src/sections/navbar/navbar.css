@@ -1,7 +1,9 @@
 
 
 
-
+p{
+  font-size: 1.2rem;
+}
 
 
 .navbar {
@@ -99,7 +101,7 @@ nav a:hover{
   }
 
   .nav-menu.active {
-    background: #9E7BB5;
+    background:none;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
@@ -128,7 +130,7 @@ nav a:hover{
 }
 
 /* Phone */
-@media only screen and (min-device-width: 314px) and (max-device-width: 820px) {
+ @media only screen and (min-device-width: 314px) and (max-device-width: 820px) {
     .nav-menu.active {
         background: #9E7BB5;
         left: 0px;
@@ -138,7 +140,11 @@ nav a:hover{
         display: flex;
         align-items: center; 
     
-    }
+    } 
+    
+
+    
+ }
     /* .bug-image {
         --x: 0px;
         --y: 0px;
@@ -152,7 +158,7 @@ nav a:hover{
         object-fit: cover;
         
 } */
-}
+
 
 /* Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

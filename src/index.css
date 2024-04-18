@@ -7,6 +7,7 @@
   list-style: none;
   text-decoration: none;
   
+  
 
 }
  :root{
@@ -58,7 +59,7 @@
 
     /* general section  styles*/ 
     section{
-      padding: 10rem 0;
+       /* padding: 10rem 0;  */
       background: #e7d6e4;
       transition: var(--transition);
     }
@@ -93,7 +94,7 @@
       line-height: 1.5;
       color:#ddb4cc;
       font-weight: 700;
-      font-size: 2rem;
+      font-size: rem;
       
     }
     h1{
@@ -191,7 +192,7 @@ color: #F7F5F6;
       width: var(--container-width-md);
     }
     section{
-      padding: 8rem 0;
+       /* padding: 8rem 0;  */
     }
     section > p{
       width: 75%;

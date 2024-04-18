@@ -23,12 +23,9 @@ const About = () => {
           team-oriented environment. I possess a problem-solving mindset and
           welcome new challenges.
            Always striving to enhance my skills and
-          knowledge. My ability to quickly absorb information and think
-          creatively enables me to approach problem-solving in unique ways.
-          Overall, I am committed to continuous learning and improvement in my
-          craft. </p>
-            <p>When I am not coding, I enjoy spending time with my family, playing with my dog, and traveling.</p>
-           
+          knowledge. I am committed to continuous learning and improvement in my
+          craft. When I am not coding I enjoy spending time with my family, playing with my dog and traveling </p>
+            
 
     </div>
     </div>
